@@ -6,23 +6,16 @@
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width'>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-        <script src='main.js'></script>
+        <script src='podcast.js'></script>
     </head>
 
     <body>
-        <div>
-      <audio controls>
-      <source src="hype_home.mp3">
-      <source src="hype_home.ogg">
-          </audio>
-        </div>
-        <div>
-            <video controls poster="sintel.jpg" width="600">
-                <source src="sintel.mp4">
-                <source src="sintel.webm">
-                <source src="sintel.ogv">
-            </video>
-        </div>
+        <div id="conteneur_video">
+   <video  src="fichier_video.ogg" autoplay type="video/ogg" width="600" height="490" class="video" id="video">
+       Message alternatif en cas d'incompatibilité
+   </video>
+   <span id="play_pause"></span>
+		</div>
     </body>
   
 </html>
