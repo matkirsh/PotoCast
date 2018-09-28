@@ -1,9 +1,11 @@
 #conteneur_video {
    position: relative;
 }
+
 /* Le bouton de Pause/Lecture, recouvre la totalité de la vidéo
 *  et masqué au chargement de la page via Javascript
 */
+
 #play_pause {
    position: absolute;
    top: 0; left: 0;
@@ -11,6 +13,7 @@
    width: 600px; height: 490px;  
    background: transparent url(play_video.png) no-repeat 50% 50%;
 }
+
 /* Class ajoutée par Javascript lors du clic Pause */
 #play_pause.pause {
    background-image: url(pause_video.png);
